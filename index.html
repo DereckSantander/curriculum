@@ -14,20 +14,21 @@
             </header>
             <nav>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Educación</a></li>
-                    <li><a href="#">Experiencia</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#educacion">Educación</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
-            <section id="informacion-personal">
+            <section id="inicio">
                 <h2>Información personal</h2>
                 <p>
-                    Nombre: <span>Dereck Santander</span>
+                    Nombre: <span > Dereck Santander </span>
                 <p>
                     Correo electrónico: <span>disantan@espol.edu.ec</span>
                 </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1993.5076246579317!2d-79.96613044564668!3d-2.1478480361049783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1697038647741!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
             <section id="educacion">
                 <h2>Educación</h2>
@@ -43,18 +44,24 @@
             </section>
             <section id="experiencia">
                 <h2>Experiencia</h2>
-                <p>
-                    Cargo: <span>...</span>
-                </p>
-                <p>
-                    Empresa: <span>...</span>
-                </p>
-                <p>
-                    Fechas: <span>...</span>
-                </p>
-                <p>
-                    Descripción: ...
-                </p>
+                <table border="1px">
+                    <thead>
+                        <tr>
+                            <th>Empresa</th>
+                            <th>Cargo</th>
+                            <th>Fechas</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> <img src="https://placehold.co/600x400" alt="Empresa S.A." width="100" height="100"></td>
+                            <td>Sin cargo</td>
+                            <td>Sin fechas</td>
+                            <td>Sin Descripción</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
             <section id="habilidades">
                 <h2>Habilidades</h2>
@@ -64,6 +71,26 @@
                     <li>Herramientas de desarrollo: Visual Studio Code, Git</li>
                     <li>Otros: Inglés</li>
                 </ul>
+            </section>
+            <section id="#contacto">
+                <h2>Contacto</h2>
+                <form method="get">
+                    <div>
+                        <label> 
+                            Nombre: 
+                            <input type="text" required />
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Correo electrónico: 
+                            <input type="email" required />
+                        </label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" />
+                    </div>
+                </form>
             </section>
             <footer>
                 <p>Copyright © 2023 Dereck Santander</p>
