@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Nunito:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #2d334a;
+}
+body {
+    background-color: #fffffe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+
+nav {
+    display: flex;
+    background-color: #bae8e8;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5% 10px 5%;
+    font-weight: bold;
+}
+
+ul .nav {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    color: #272343;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffd803;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    padding:0 25px 0 25px;
+    border-right: 2px solid #272343;
+}
+
+
+
+.img-perfil {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.info {
+    padding-left: 25px;
+    margin-right: 20px;
+}
+
+.info section {
+    margin-bottom: 50px;
+    
+}
+
+.info #proyectos {
+    align-items: center;
+    justify-content: center;
+}
+.info section h2 {
+    border-bottom: 1px solid #ffd803;
+    margin-bottom: 20px;
+}
+
+table {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #272343;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
